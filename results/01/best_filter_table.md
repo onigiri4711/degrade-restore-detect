@@ -1,0 +1,37 @@
+|                       |   noisy PSNR | best filter   |   best PSNR |   gain (dB) |
+|:----------------------|-------------:|:--------------|------------:|------------:|
+| ('blur', 0.5)         |        36.67 | bilateral     |       35.26 |       -1.41 |
+| ('blur', 1.0)         |        28.03 | bilateral     |       27.77 |       -0.26 |
+| ('blur', 1.5)         |        25.76 | bilateral     |       25.64 |       -0.13 |
+| ('blur', 2.0)         |        24.55 | bilateral     |       24.48 |       -0.07 |
+| ('blur', 3.0)         |        23.17 | median        |       23.13 |       -0.03 |
+| ('color_cast', 0.1)   |        29.24 | bilateral     |       29.1  |       -0.14 |
+| ('color_cast', 0.2)   |        23.39 | nlmeans       |       23.41 |        0.02 |
+| ('color_cast', 0.3)   |        20.03 | nlmeans       |       20.15 |        0.13 |
+| ('color_cast', 0.4)   |        17.68 | nlmeans       |       17.85 |        0.17 |
+| ('color_cast', 0.5)   |        15.89 | nlmeans       |       16.08 |        0.19 |
+| ('gaussian', 5.0)     |        34.24 | bilateral     |       37.65 |        3.41 |
+| ('gaussian', 15.0)    |        24.82 | bilateral     |       30.9  |        6.08 |
+| ('gaussian', 25.0)    |        20.53 | bilateral     |       27.56 |        7.03 |
+| ('gaussian', 35.0)    |        17.78 | bilateral     |       25.73 |        7.95 |
+| ('gaussian', 50.0)    |        15    | gaussian      |       23.2  |        8.2  |
+| ('jpeg', 10.0)        |        25.72 | bilateral     |       26.25 |        0.54 |
+| ('jpeg', 30.0)        |        29.31 | bilateral     |       29.7  |        0.39 |
+| ('jpeg', 50.0)        |        31.01 | bilateral     |       31.36 |        0.35 |
+| ('jpeg', 70.0)        |        32.87 | bilateral     |       33.14 |        0.27 |
+| ('jpeg', 90.0)        |        37.33 | bilateral     |       37.68 |        0.34 |
+| ('low_light', 0.2)    |        16.18 | bilateral     |       16.3  |        0.12 |
+| ('low_light', 0.4)    |        11.95 | gaussian      |       11.99 |        0.04 |
+| ('low_light', 0.6)    |         9.86 | gaussian      |        9.89 |        0.03 |
+| ('low_light', 0.8)    |         8.63 | gaussian      |        8.66 |        0.03 |
+| ('low_light', 0.9)    |         8.2  | gaussian      |        8.24 |        0.04 |
+| ('poisson', 5.0)      |        12.18 | gaussian      |       21.67 |        9.48 |
+| ('poisson', 10.0)     |        14.79 | gaussian      |       23.13 |        8.34 |
+| ('poisson', 20.0)     |        17.56 | bilateral     |       25.15 |        7.59 |
+| ('poisson', 50.0)     |        21.36 | bilateral     |       27.81 |        6.45 |
+| ('poisson', 100.0)    |        24.3  | bilateral     |       29.87 |        5.57 |
+| ('salt_pepper', 0.01) |        24.98 | median        |       29    |        4.02 |
+| ('salt_pepper', 0.03) |        20.23 | median        |       28.83 |        8.6  |
+| ('salt_pepper', 0.05) |        18    | median        |       28.64 |       10.64 |
+| ('salt_pepper', 0.1)  |        14.99 | median        |       28.03 |       13.04 |
+| ('salt_pepper', 0.2)  |        11.98 | median        |       25.61 |       13.63 |

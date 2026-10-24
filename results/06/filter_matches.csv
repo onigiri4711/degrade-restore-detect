@@ -1,0 +1,65 @@
+filter,best_match,cosine,colour_share
+0,Sobel y (horizontal edges),-0.5427184530415226,0.40461418
+1,"Laplacian (edges, all directions)",-0.5513471147292395,0.9879862
+2,Sobel x (vertical edges),-0.5473519773534761,0.9974709
+3,"Laplacian (edges, all directions)",-0.6319233206918078,0.59640706
+4,Sobel y (horizontal edges),0.7725065559603738,0.81671
+5,Sobel x (vertical edges),-0.4949304601318162,0.67025036
+6,Gaussian (low-pass),-0.5743651264719871,0.81392765
+7,Sobel y (horizontal edges),0.4557971736895105,0.81006426
+8,Sobel y (horizontal edges),-0.8211209210723203,0.007240338
+9,"Laplacian (edges, all directions)",0.6548134640789419,0.86810154
+10,"Laplacian (edges, all directions)",-0.5970945812942752,0.92678946
+11,Sobel y (horizontal edges),0.5265201870534741,0.00070023246
+12,Sobel x (vertical edges),-0.353063137805351,0.92677057
+13,identity (centre pixel),0.7392361760132072,0.31760734
+14,Sobel y (horizontal edges),0.8933272038729155,0.0055472357
+15,Sobel x (vertical edges),0.6168432317597967,0.709655
+16,Sobel x (vertical edges),0.49269463842866834,0.22935127
+17,identity (centre pixel),-0.6943773627274245,0.92983603
+18,Gaussian (low-pass),0.6870002426809628,0.20656963
+19,Sobel x (vertical edges),-0.8620917545779243,0.0059106983
+20,identity (centre pixel),0.7271767258636832,0.009663871
+21,"Laplacian (edges, all directions)",-0.6147638457327449,0.8545305
+22,Sobel y (horizontal edges),-0.7449641913381055,0.07830886
+23,Sobel y (horizontal edges),-0.9695157589556163,0.0033056575
+24,"Laplacian (edges, all directions)",0.7639314801144922,0.8696903
+25,Sobel y (horizontal edges),0.5622784513238328,0.91301346
+26,Sobel x (vertical edges),0.43545619695938864,0.7081351
+27,Sobel y (horizontal edges),0.1675283634298,0.827917
+28,Sobel x (vertical edges),-0.9582054125154642,0.001197722
+29,"Laplacian (edges, all directions)",-0.6165053691263958,0.8742342
+30,Sobel x (vertical edges),0.9515533318158081,0.0029874938
+31,"Laplacian (edges, all directions)",-0.8616417257904685,0.74861175
+32,identity (centre pixel),-0.5947598218911898,0.87310326
+33,Sobel x (vertical edges),0.5222562517265383,0.27636507
+34,Sobel y (horizontal edges),-0.7724678351555623,0.995199
+35,Sobel y (horizontal edges),0.7337711093943957,0.94094676
+36,Sobel x (vertical edges),0.5386149255256921,0.46145836
+37,Sobel x (vertical edges),-0.34370963841939384,0.9400215
+38,"Laplacian (edges, all directions)",-0.778105913727845,0.8153747
+39,Sobel y (horizontal edges),0.7658597006228955,0.14208005
+40,"Laplacian (edges, all directions)",-0.5284449528147244,0.8408445
+41,identity (centre pixel),-0.5903156399720964,0.0037127044
+42,Sobel y (horizontal edges),0.3448900648342256,0.92491513
+43,"Laplacian (edges, all directions)",0.7925275110057267,0.93199605
+44,"Laplacian (edges, all directions)",0.514698468073756,0.787372
+45,Sobel y (horizontal edges),0.6138441298145547,0.84044254
+46,Sobel y (horizontal edges),-0.6556828845249157,0.9949406
+47,identity (centre pixel),0.7143007516853819,0.5774077
+48,"Laplacian (edges, all directions)",-0.7354057336180291,0.7897964
+49,"Laplacian (edges, all directions)",-0.671497976465395,0.75332946
+50,Sobel y (horizontal edges),-0.5750364440732961,0.6755924
+51,Gaussian (low-pass),-0.8977918568974634,0.4979703
+52,Sobel y (horizontal edges),0.41494592451693485,0.9297051
+53,"Laplacian (edges, all directions)",0.7035482460803275,0.82498467
+54,"Laplacian (edges, all directions)",0.5673429883209742,0.9560978
+55,Sobel y (horizontal edges),0.34540567978612413,0.8702668
+56,Sobel x (vertical edges),-0.6124237281846575,0.17597915
+57,identity (centre pixel),0.6902679204933893,0.86247635
+58,identity (centre pixel),0.5821661949151893,0.82759064
+59,identity (centre pixel),-0.36722376942597856,0.0041263523
+60,identity (centre pixel),0.475506037473203,0.7739354
+61,identity (centre pixel),-0.9610959291448518,0.64059645
+62,Sobel x (vertical edges),0.7071780413276603,0.93927574
+63,identity (centre pixel),-0.5737214088434204,0.0031445823
