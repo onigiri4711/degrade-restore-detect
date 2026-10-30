@@ -8,7 +8,7 @@ Images reach vision systems damaged: grainy from small sensors, blocky from comp
 2. **Restore:** repairs use tuned classical filters, colour-space-aware denoising, contrast enhancement, matched inverses (gray-world, Wiener), and a blind DnCNN trained from scratch.
 3. **Detect:** a pretrained YOLOv8n is scored with COCO mAP on clean, damaged and repaired images.
 
-The full write-up is in [`report/report.pdf`](report/report.pdf).
+The full write-up is in [`report/report.pdf`](report/report.pdf). A notebook-by-notebook study guide, explaining every function and what each output means, is in [`docs/notebook_explainers.pdf`](docs/notebook_explainers.pdf).
 
 ## Key findings
 
@@ -43,10 +43,11 @@ notebooks/
   04_dncnn_training.ipynb               blind DnCNN training and evaluation (Kaggle GPU)
   05_detection_eval.ipynb               YOLOv8n mAP under damage and restoration (Kaggle GPU)
   06_denoiser_analysis.ipynb            filters, receptive field, frequency response, failure gallery
-degradations.py      damage functions shared by notebooks 01, 04, 05 and 06 (written by notebook 01)
+degradations.py      damage functions shared by notebooks 01, 05 and 06 (written by notebook 01)
 results/             tuned filter settings, PSNR tables, DnCNN checkpoint, mAP summary, analysis CSVs
 figures/             the 23 figures used in the report
 report/report.pdf    full report
+docs/notebook_explainers.pdf   study guide: each notebook explained function by function
 ```
 
 All notebooks are saved with their outputs, so the results can be read without re-running.

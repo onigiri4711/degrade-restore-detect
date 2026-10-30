@@ -22,7 +22,7 @@ def add_poisson_noise(img, peak, rng):
 
 
 def add_salt_pepper(img, amount, rng):
-    """Replace a fraction `amount` of values with 0 or 1 (equal odds). Per value or per pixel: your choice, documented."""
+    """Set a fraction `amount` of pixels to black (0) or white (1), equal odds, all three channels together."""
     # Per-PIXEL corruption (all 3 channels together), which is how dead/stuck sensor pixels behave.
     # A 2-D mask indexes the first two axes, so sp_noisy[mask] = 1.0 sets R, G and B at once.
     sp_noisy = img.copy()
@@ -44,7 +44,7 @@ def gaussian_blur(img, sigma, rng=None):
 def jpeg_compress(img, quality, rng=None):
     """Round-trip through JPEG at `quality` (1-100). cv2 wants uint8 BGR in, gives uint8 BGR out."""
     # The one place we leave our convention: OpenCV's JPEG codec needs uint8 BGR,
-    # so  we convert float RGB [0, 1] -> uint8 BGR, encode/decode, then convert back.
+    # so convert float RGB [0, 1] -> uint8 BGR, encode/decode, then convert back.
     u8_bgr = (np.clip(img, 0, 1) * 255).round().astype(np.uint8)[:, :, ::-1]
     ok, buf = cv2.imencode(".jpg", u8_bgr, [cv2.IMWRITE_JPEG_QUALITY, int(quality)])
     if not ok:

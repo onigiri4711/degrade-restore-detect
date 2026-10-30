@@ -7,6 +7,8 @@ matplotlib
 jupyter
 # notebooks 03-06
 torch
+# notebook 04 (downloads BSD500; preinstalled on Kaggle)
+kagglehub
 # notebook 05
 ultralytics
 pycocotools
